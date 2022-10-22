@@ -1,0 +1,6 @@
+n1= int(input('Digite o primeiro número: '))
+
+a= n1-1
+s= n1+1
+
+print('O antecessor é de {} é {} e o sucessor é {}'.format(n1,a,s))
