@@ -1,0 +1,10 @@
+frase= input('Digite o seu nome: ')
+
+print('Analisando seu nome...')
+print('\nSeu nome em maiúsculo: {}'.format(frase.upper()))
+print('Seu nome em minúsculo: {}'.format(frase.lower()))
+# copia= frase.replace(' ','')
+# print('Seu nome tem {} letras'.format(len(copia)))
+print('Seu nome tem {} letras'.format(len(frase) - frase.cout(' ')))
+copia2= frase.split()
+print('Seu primeiro nome é {} e tem {} letras'.format(copia2[0],len(copia2[0])))
